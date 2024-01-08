@@ -1,0 +1,47 @@
+.header {}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 112px;
+}
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 41px;
+}
+
+.navigation__item {}
+
+.navigation__link {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.header__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+}
+
+.btnContact {
+    border-radius: 40px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: transparent;
+    padding: 16.5px 36px;
+}
+
+.btn {
+    padding: 16.5px 37.5px;
+}
