@@ -2,6 +2,7 @@ import React from 'react'
 import Container from "../../atoms/Container/index"
 import styles from "./index.module.css"
 import Button from "../../atoms/Button/index"
+import BottomVector from '../../atoms/BottomVector'
 
 const Bottom = () => {
     return (
@@ -68,13 +69,14 @@ const Bottom = () => {
                         <button className={styles.btnArr}>
                             <div className={styles.circle}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
-                                    <path d="M17.5 25L30 37.5L42.5 25" stroke="#433D60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M17.5 25L30 37.5L42.5 25" stroke="#433D60" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </div>
                         </button>
                     </div>
                 </div>
             </Container>
+            <BottomVector className={styles.vector} />
         </section>
     )
 }

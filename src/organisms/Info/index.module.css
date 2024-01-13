@@ -1,0 +1,35 @@
+.info {
+    position: relative;
+    margin-bottom: 112px;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 159px;
+    height: 159px;
+    border-radius: 50%;
+    color: #343045;
+    font-size: 4rem;
+    font-weight: 700;
+    background: linear-gradient(251deg, #C0B7E8 12.87%, #8176AF 89.33%);
+    border: none;
+}
+
+.title {
+    max-width: 187px;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.vector {
+    position: absolute;
+    top: 0px;
+    left: 176px;
+    z-index: -1;
+}

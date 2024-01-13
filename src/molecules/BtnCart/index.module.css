@@ -1,0 +1,17 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.circle {
+    width: 198px;
+    height: 198px;
+    border-radius: 50%;
+    background: rgba(13, 13, 13, 0.32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./index.module.css"
 import Container from '../../atoms/Container'
 import Button from '../../atoms/Button'
+import AboutVector from '../../atoms/AboutVector'
 
 const About = () => {
     return (
@@ -29,6 +30,7 @@ const About = () => {
                     </div>
                 </div>
             </Container>
+            <AboutVector className={styles.vector} />
         </section>
     )
 }

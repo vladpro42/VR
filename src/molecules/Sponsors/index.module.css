@@ -1,0 +1,12 @@
+.imgBox {
+
+    margin-bottom: 70px;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {}

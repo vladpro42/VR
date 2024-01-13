@@ -1,0 +1,74 @@
+.footer {
+    position: relative;
+
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+    margin-bottom: 77px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.linksBox {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.link {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.text {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.socials {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 16px 40px;
+    max-width: 214px;
+}
+
+.hr {
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.politics {
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 1.82px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.vector {
+    position: absolute;
+    top: -356px;
+    left: 0px;
+    z-index: -1;
+}

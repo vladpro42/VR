@@ -15,7 +15,7 @@ const Top = () => {
             <Container>
                 <div className={styles.topInner}>
                     <div className={styles.titleBox}>
-                        <VectorTopLeft className={styles.vectorLeft}/>
+                        <VectorTopLeft className={styles.vectorLeft} />
                         <h1 className={styles.title}>
                             <span className={styles.titlePurple}>Dive </span>
                             Into The Depths Of

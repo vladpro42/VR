@@ -1,4 +1,7 @@
-.bottom {}
+.bottom {
+    position: relative;
+    margin-bottom: 5px;
+}
 
 .inner {
     display: flex;
@@ -105,4 +108,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.vector {
+    position: absolute;
+    top: 57px;
+    left: 0;
+    z-index: -1;
 }

@@ -1,9 +1,13 @@
 import './App.css';
+import Info from './organisms/Info';
+import Sponsors from './molecules/Sponsors';
 import About from './organisms/About';
 import Bottom from './organisms/Bottom';
 import Header from './organisms/Header';
 import IntroDuction from './organisms/Introduction';
 import Top from './organisms/Top';
+import Form from './molecules/Form';
+import Footer from "./organisms/Footer/index"
 
 const text = `Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
 nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
@@ -28,10 +32,16 @@ function App() {
     <div className="App">
       <Header />
       <Top />
+
       <IntroDuction {...introduction} />
       <About />
       <IntroDuction {...why} />
       <Bottom />
+      <Sponsors />
+      <IntroDuction {...why} />
+      <Info />
+      <Form />
+      <Footer />
     </div>
   );
 }

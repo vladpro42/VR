@@ -1,5 +1,6 @@
 .about {
     margin-bottom: 111px;
+    position: relative;
 }
 
 .inner {
@@ -43,4 +44,11 @@
 
 .btn {
     padding: 16.5px 43px;
+}
+
+.vector {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    z-index: -1;
 }

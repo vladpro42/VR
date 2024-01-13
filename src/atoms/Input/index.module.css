@@ -1,0 +1,12 @@
+.inp {
+    border-radius: 40px;
+    border: 2px solid #FFF;
+    height: 72px;
+    background: transparent;
+    width: 100%;
+    color: #FFF;
+    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    padding-left: 42px;
+}
