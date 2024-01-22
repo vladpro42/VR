@@ -1,0 +1,43 @@
+.navigation__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 41px;
+}
+
+.navigation__item {}
+
+.navigation__link {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+@media (max-width: 984px) {
+
+    .navigation__list {
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 850px) {
+
+
+    .navigation__list {
+        display: none;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .navigation__item {
+        padding: 5px 0;
+    }
+
+    .navigation__link {
+        font-size: 1rem;
+    }
+
+}

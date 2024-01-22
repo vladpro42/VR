@@ -31,8 +31,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Top />
-
+      {/* <Top />
       <IntroDuction {...introduction} />
       <About />
       <IntroDuction {...why} />
@@ -41,7 +40,7 @@ function App() {
       <IntroDuction {...why} />
       <Info />
       <Form />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

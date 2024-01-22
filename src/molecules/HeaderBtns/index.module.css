@@ -1,0 +1,46 @@
+.header__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+}
+
+.btnContact {
+    border-radius: 40px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: transparent;
+    padding: 16.5px 36px;
+}
+
+.btn {
+    padding: 16.5px 37.5px;
+}
+
+@media (max-width: 984px) {
+
+
+
+
+    .header__btns {
+        gap: 10px;
+    }
+
+    .btnContact {
+        padding: 12px 24px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 850px) {
+    .header__btns {
+        display: none;
+        flex-direction: column;
+    }
+}
